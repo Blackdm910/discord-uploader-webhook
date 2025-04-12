@@ -28,4 +28,36 @@ This Next.js application allows users to upload files and send them directly to 
 -   lucide-react icons
 -   file-type
 
+## How to Use
 
+1. Clone this repo:
+```bash
+   git clone https://github.com/Blackdm910/discord-uploader-webhook.git
+   ```
+
+2. Install dependencies:
+
+```bash
+pnpm install
+```
+
+
+3. Setup your .env:
+
+```bash
+NEXT_PUBLIC_DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/...
+```
+
+
+4. Run the dev server:
+
+```bash
+pnpm dev
+```
+
+---
+
+## License
+
+MIT
+Use at your own risk.
